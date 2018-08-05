@@ -42,7 +42,7 @@ const React = require('react');
 const StyleSheet = require('react-native').StyleSheet;
 const View = require('react-native').View;
 
-const { PropTypes } = React;
+const PropTypes = require('propTypes');
 const { Directions } = NavigationCardStackPanResponder;
 
 import type {

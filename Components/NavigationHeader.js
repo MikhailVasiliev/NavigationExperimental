@@ -79,7 +79,7 @@ type SubViewName = 'left' | 'title' | 'right';
 
 const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
-const { PropTypes } = React;
+const PropTypes = require('propTypes');
 
 class NavigationHeader extends React.PureComponent<DefaultProps, Props, any> {
   props: Props;
