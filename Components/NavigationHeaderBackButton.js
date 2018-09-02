@@ -25,7 +25,7 @@
 
 const React = require('react');
 const ReactNative = require('react-native');
-const PropTypes = require('prop-types');
+import PropTypes from 'prop-types';
 
 const {
   I18nManager,
